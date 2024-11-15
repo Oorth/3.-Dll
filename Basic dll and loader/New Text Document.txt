@@ -1,0 +1,1 @@
+to make dll -> cl.exe /MACHINE:X64 /LD dll.c /Fe:dll.dll

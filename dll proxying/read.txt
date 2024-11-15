@@ -1,0 +1,8 @@
+to get all the exports of a dll -> dumpbin /exports process_name (here twinapi.dll)  
+
+    ordinal hint RVA      name
+
+         16    0 000074C0 DllCanUnloadNow
+         17    1 00008100 DllGetActivationFactory
+         18    2 00006F70 DllGetClassObject
+          8    3 0003AC30 GetMetroMode
