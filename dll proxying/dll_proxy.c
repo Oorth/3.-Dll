@@ -19,8 +19,8 @@ BOOL WINAPI DllMain(HANDLE DLL, DWORD dwReason, LPVOID LpReserved)
 {
     switch(dwReason)
     {
-        case DLL_PROCESS_ATTACH:                
-            MessageBoxW(NULL, L"hi", L"hello again", MB_OK | MB_ICONHAND);                
+        case DLL_PROCESS_ATTACH:
+            MessageBoxW(NULL, L"hi", L"hello again", MB_OK | MB_ICONHAND);
         break;
     }
 
